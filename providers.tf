@@ -9,7 +9,8 @@ terraform {
 }
 provider "aws" {
     region = "ap-south-1"
-    profile = "default"
+    access_key = "AKIAQXTEG5FLWNN3JT7M"
+    secret_key = "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"
 }
 
 resource "aws_instance" "newos" {
